@@ -1,0 +1,99 @@
+.promo {
+    width: 60.94%;
+    height: auto;
+    margin: auto auto;
+    background-color: #F2F2F2;
+    /*align-items: center;*/
+}
+
+.promocardbox {
+    width: 81.2%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: auto auto;
+    flex-wrap: wrap;
+    padding: 20px 0 0 0;
+}
+
+.promoleftside {
+    width: 47.37%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.promorightside {
+    width: 49.47%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.chickenbox {
+    width: 100%;
+    height: auto;
+}
+
+.sushibox {
+    width: 47.66%;
+    height: auto;
+}
+
+.corndogbox {
+    width: 47.66%;
+    height: auto;
+}
+
+.pizzabox {
+    width: 100%;
+    height: auto;
+}
+
+.actionbox {
+    width: 100%;
+    height: auto;
+}
+
+.chicken {
+    width: 100%;
+    /*padding: 0 0 16px 0;*/
+}
+
+.pizza {
+    width: 100%;
+}
+
+.sushi {
+    width: 100%;
+    /*padding: 0 0 16px 0;*/
+}
+
+.corndog {
+    width: 100%;
+}
+
+.action {
+    width: 100%;
+}
+
+.chickentext {
+    position: relative;
+    left: 2.22%;
+    top: -26%;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.78px;
+    color: white;
+}
+
+.promocardbox span:hover {
+    color: #FF9846;
+    cursor: pointer;
+}
+
+.promocardbox img:hover {
+    cursor: pointer;
+}

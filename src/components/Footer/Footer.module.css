@@ -1,0 +1,118 @@
+.footer {
+    width: 60.94%;
+    height: auto;
+    background-color: #F2F2F2;
+    margin: auto auto;
+    align-items: center;
+    padding: 4vw 0 0 0;
+}
+
+.footermain {
+    width: 81.2%;
+    height: auto;
+    margin: auto auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.menu1 {
+width: 33%;
+height: auto;
+}
+
+.menu2 {
+width: 33%;
+height: auto;
+}
+
+.menu3 {
+width: 33%;
+height: auto;
+padding: 1vw 0 0 0;
+}
+
+.footersvgbox {
+    width: 75%;
+    height: auto;
+    margin: auto auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 0.25vw 0 3vw 0;
+}
+
+.whatsapp {
+    width: 21.73%;
+    opacity: 0.25;
+}
+
+.telegram {
+    width: 21.73%;
+    opacity: 0.25;
+}
+
+.instagram {
+    width: 24.88%;
+    opacity: 0.25;
+}
+
+.menu1text {
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+padding: 2vw 0 0 0;
+}
+
+.menu2text1 {
+font-size: 18px;
+font-weight: 500;
+line-height: 22.34px;
+text-align: left;
+padding: 2vw 0 0 1.5vw;
+}
+
+.menu2text2 {
+color: #A4ACAD;
+font-size: 18px;
+font-weight: 500;
+line-height: 22.34px;
+text-align: left;
+padding: 1vw 0 0 1.5vw;
+}
+
+.menu2text3 {
+color: #A4ACAD;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.32px;
+text-align: left;
+padding: 1.5vw 0 0 1.5vw;
+}
+
+.menu3text {
+color: #A4ACAD;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.32px;
+text-align: left;
+padding: 1vw 0 0 1.5vw;
+}
+
+.footersvgbox img:hover {
+opacity: 1;
+cursor: pointer;
+transition: 0.4s;
+}
+
+.menu2text2:hover {
+    cursor: auto;
+}
+
+.menu1text:hover {
+    text-decoration: underline;
+    color: #FF9846;
+    cursor: pointer;
+}

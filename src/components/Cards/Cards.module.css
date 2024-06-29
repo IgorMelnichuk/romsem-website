@@ -1,0 +1,118 @@
+.cards {
+    width: 60.94%;
+    height: auto;
+    margin: auto auto;
+    background-color: #F2F2F2;
+    /*align-items: center;*/
+}
+
+.allcards {
+    width: 81.2%;
+    height: auto;
+    margin: auto auto;
+    /*flex*/
+    /*padding*/
+}
+
+.sets {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.cardsgrid {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    /*margin: auto auto;*/
+    flex-wrap: wrap;
+    gap: 2vw;
+    padding: 2vw 0 0 0;
+
+}
+
+.card1 {
+    width: 30.53%;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 1px;
+    /*display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;*/
+}
+
+.picturebox {
+    width: 87.24%;
+    height: auto;
+    margin: auto auto;
+}
+
+.setpicture {
+    width: 100%;
+}
+
+.cardbottomblock {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardbutton {
+width: 43%;
+height: auto;
+padding: 0;
+border-radius: 5px;
+color: #F2F2F2;
+background-color: #F46D40;
+font-size: 16px;
+font-weight: 500;
+line-height: 29.78px;
+text-align: center;
+margin: 0 0 0.5vw 0;
+}
+
+.setname {
+font-size: 36px;
+font-weight: 400;
+line-height: 44.64px;
+text-align: left;
+padding: 0 1vw;
+}
+
+.cardtext1 {
+font-size: 24px;
+font-weight: 500;
+line-height: 29.78px;
+padding: 2vw 0;
+}
+
+.cardtext2 {
+font-size: 14px;
+font-weight: 400;
+line-height: 22.32px;
+color: #A4ACAD;
+padding: 0 0 1vw 0;
+}
+
+.cardbottomtext {
+font-size: 18px;
+font-weight: 700;
+line-height: 30.05px;
+}
+
+.cardbutton:hover {
+    color: #F46D40;
+    background-color: #F2F2F2;
+    border-color: #F46D40;
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: 700;
+    }

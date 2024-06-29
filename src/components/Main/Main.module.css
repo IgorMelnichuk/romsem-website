@@ -1,0 +1,37 @@
+.main {
+    width: 60.94%;
+    height: auto;
+    background-color: #F2F2F2;
+    margin: auto auto;
+    align-items: center;
+}
+
+.picturebox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainpic {
+    margin: 30px auto auto auto;
+    width: 81.2%;
+    height: auto;
+}
+
+.mainpic:hover {
+    cursor: pointer;
+}
+
+.mainsvggrid {
+    width: 90px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 10px auto auto auto;
+}
+
+.mainsvggrid img:hover {
+    cursor: pointer;
+}
